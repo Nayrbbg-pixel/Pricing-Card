@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.top_container{
+    position: absolute;
+    top: 100px;
+    width:45%;
+    height: 217px;
+    background-color: white;
+    left:27.5%;
+    border-radius: 7px 7px 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container1,.container2{
+    display: flex;
+}
+
+.container1{
+    background-color: hsl(179, 62%, 43%);
+    border-radius:0px 0px 0px 7px;
+    position: absolute;
+    width: 22.5%;
+    height: 226px;
+    left: 27.5%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 317px;
+}
+
+.container2{
+    background-color: rgba(74,190,189,255);
+    position:absolute;
+    width:22.5%;
+    height:226px;
+    left:50%;
+    top: 317px;
+    box-shadow:0 0px 3px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 7px 0px ;
+}
+
+#head{
+    position: absolute;
+    left:2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size:2rem;
+    color: hsl(179, 62%, 43%);
+}
+
+#para1{
+    color:hsl(218, 22%, 67%);
+    position:absolute;
+    top: 98px;
+    left: 2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+#para2{
+    color:hsl(218, 22%, 67%);
+    position:absolute;
+    left: 2rem;
+    top: 124px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+#h3_{
+    color:hsl(71, 73%, 54%);
+    position: absolute;
+    left: 2rem;
+    top: 58px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.Subscription,.Price,.Access{
+    color: white;
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left: 2rem;
+}
+
+.Price{
+    top: 35px;
+    font-size: 2rem;
+
+}
+#per{
+    position: absolute;
+    top: 79px;
+    left: 6.6rem;
+    font-weight: 50;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    font-family: 'Karla',sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
+
+.Subscription{
+    top: 15px;
+    font-size:1.1rem;
+
+}
+.Access{
+    top: 95px;
+    font-weight: 400;
+}
+
+#sign_up{
+    position:absolute;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    left: 2rem;
+    top:150px;
+    width:239px;
+    height: 40px;
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+    border: 0px;
+    border-radius:4px 4px 4px 4px;
+}
+
+#sign_up:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#why_us,#why_us_para{
+    position:absolute;
+    top:14.2px;
+    left:2rem;
+    color:white;
+    font-family: 'Karla',sans-serif;
+}
+
+#why_us{
+    font-weight: 700;
+    font-size:1.2rem;
+}
+
+#why_us_para{
+    top:53px;
+    line-height: 27px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-right:45px;
+}
